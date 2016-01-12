@@ -22,7 +22,7 @@ module.exports = function (grunt){
           dev: {
               options: {
                   sassDir: 'assets/style/sass',
-                  cssDir: 'assets/style/css',
+                  cssDir: '.',
                   fontsDir: 'assets/fonts',
                   javascriptsDir: 'assets/js',
                   imagesDir: 'assets/img',
@@ -56,23 +56,7 @@ module.exports = function (grunt){
         dist: {
             options: {
                 src: "./",
-                dest: "../HMCClients_Production"
-            }
-        },
-        stage: {
-            options: {
-                src: "../HMCClients_Production",
-                dest: "/var/www/site",
-                host: "user@staging-host",
-                // delete: true // Careful this option could cause data loss, read the docs!
-            }
-        },
-        prod: {
-            options: {
-                src: "../HMCClients_Production",
-                dest: "/var/www/site",
-                host: "user@live-host",
-                //delete: true // Careful this option could cause data loss, read the docs!
+                dest: "../HMC-Clients"
             }
         }
     }
