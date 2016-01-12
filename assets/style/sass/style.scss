@@ -1,0 +1,26 @@
+/*
+Theme Name: HMC Client
+Author: Amanda Iaria HMC Advertising
+Author URI: http://wearehmc.com
+Description: Child Theme for the new client area
+Version: 1.0.0
+Template: riba-lite
+*/
+
+@import url("../riba-lite/style.css");
+
+//variables
+@import "_partials/mixin";
+@import "_partials/fonts";
+@import "_partials/variables";
+@import "_partials/general";
+
+//sections
+
+@import "_section/header";
+@import "_section/footer";
+
+//pages
+
+@import "_pages/frontpage.scss";
+@import "_pages/clients";
