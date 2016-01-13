@@ -1,0 +1,8 @@
+.mt-entry-footer, .mt-related-posts, .mt-author-area, .mtl-social-sharing-box{
+	display:none;
+}
+@media (min-width: 768px){
+	.rl-layout.single .post-grid.format-aside .link-wrapper, .rl-layout.single .post-grid.format-standard .link-wrapper {
+	    height: 220px;
+	}	
+}

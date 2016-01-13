@@ -1,0 +1,10 @@
+.home{
+	.entry-title{
+		display: none;
+		&.post-title{
+			display: block !important;
+			font-size: 50px;
+			margin-left: 20px;
+		}
+	}
+}

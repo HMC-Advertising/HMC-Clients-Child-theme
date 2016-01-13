@@ -7,3 +7,68 @@ Version: 1.0.0
 Template: riba-lite
 */
 @import url("../riba-lite/style.css");
+/* line 1, assets/style/sass/_section/_header.scss */
+.container {
+  margin-top: 50px;
+}
+
+/* line 5, assets/style/sass/_section/_header.scss */
+.site-header {
+  background-color: #ffffff !important;
+}
+/* line 7, assets/style/sass/_section/_header.scss */
+.site-header a {
+  color: #333333 !important;
+}
+/* line 9, assets/style/sass/_section/_header.scss */
+.site-header a.rl-text-logo {
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-top: 32px;
+}
+
+/* line 17, assets/style/sass/_section/_header.scss */
+.mt-contact-bar {
+  background-color: #ff0000;
+}
+/* line 19, assets/style/sass/_section/_header.scss */
+.mt-contact-bar i {
+  color: #000000 !important;
+}
+/* line 22, assets/style/sass/_section/_header.scss */
+.mt-contact-bar a {
+  color: #000000 !important;
+}
+
+/* line 27, assets/style/sass/_section/_header.scss */
+#main {
+  padding-top: 50px;
+}
+
+/* line 31, assets/style/sass/_section/_header.scss */
+.headroom--unpinned.headroom--not-top.site-header {
+  top: 120px !important;
+}
+
+/* line 2, assets/style/sass/_pages/_frontpage.scss */
+.home .entry-title {
+  display: none;
+}
+/* line 4, assets/style/sass/_pages/_frontpage.scss */
+.home .entry-title.post-title {
+  display: block !important;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+/* line 1, assets/style/sass/_pages/_posts.scss */
+.mt-entry-footer, .mt-related-posts, .mt-author-area, .mtl-social-sharing-box {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 5, assets/style/sass/_pages/_posts.scss */
+  .rl-layout.single .post-grid.format-aside .link-wrapper, .rl-layout.single .post-grid.format-standard .link-wrapper {
+    height: 220px;
+  }
+}

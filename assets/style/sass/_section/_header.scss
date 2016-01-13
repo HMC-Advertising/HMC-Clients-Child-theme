@@ -1,0 +1,34 @@
+.container{
+	margin-top:50px;
+}
+
+.site-header{
+	background-color: $w !important;
+	a{
+		color:$dg !important;
+		&.rl-text-logo{
+			letter-spacing: 1px;
+			font-size:40px;
+			margin-top: 32px;
+		}
+	}
+}
+
+.mt-contact-bar{
+	background-color: $red;
+	i{
+		color:$b !important;
+	}
+	a{
+		color:$b !important;
+	}
+}
+
+#main{
+	padding-top: 50px;
+}
+
+.headroom--unpinned.headroom--not-top.site-header{
+	top:120px !important;
+}
+
