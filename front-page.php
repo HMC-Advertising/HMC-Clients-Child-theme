@@ -1,10 +1,29 @@
-<?php get_header(); ?>
+<?php 
+
+    if(is_user_logged_in()):
+       auth_redirect();
+    endif;
+
+get_header(); ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main text-center" role="main">
 
 
-    <?php $query = new WP_Query("cat=4");
+    <?php 
+
+
+        // WP_Query arguments
+        $args = array (
+            'cat'                    => '4',
+            'category_name'          => 'clients',
+            'posts_per_page'         => '50',
+            'order'                  => 'ASC',
+            'orderby'                => 'title',
+        );
+        // The Query
+        $query = new WP_Query( $args );
+
         if( $query->have_posts() ) :  while($query->have_posts() ) : $query->the_post(); ?>
                 
           
