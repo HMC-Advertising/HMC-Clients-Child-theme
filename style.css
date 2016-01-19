@@ -50,6 +50,21 @@ Template: riba-lite
   top: 120px !important;
 }
 
+/* line 36, assets/style/sass/_section/_header.scss */
+.contact-bar-details span {
+  display: none !important;
+}
+
+/* line 39, assets/style/sass/_section/_header.scss */
+.mt-contact-bar {
+  height: 10px;
+}
+
+/* line 45, assets/style/sass/_section/_header.scss */
+.site-header {
+  top: 43px !important;
+}
+
 /* line 2, assets/style/sass/_pages/_frontpage.scss */
 .home .entry-title {
   display: none;
