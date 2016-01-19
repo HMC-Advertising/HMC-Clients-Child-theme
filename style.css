@@ -65,6 +65,22 @@ Template: riba-lite
   top: 43px !important;
 }
 
+/* line 49, assets/style/sass/_section/_header.scss */
+#rl-main-menu {
+  text-align: left !important;
+}
+/* line 51, assets/style/sass/_section/_header.scss */
+#rl-main-menu > ul > li > a {
+  font-size: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* line 57, assets/style/sass/_section/_header.scss */
+#site-navigation {
+  width: 114%;
+  margin-left: -76px;
+}
+
 /* line 2, assets/style/sass/_pages/_frontpage.scss */
 .home .entry-title {
   display: none;
@@ -86,4 +102,8 @@ Template: riba-lite
   .rl-layout.single .post-grid.format-aside .link-wrapper, .rl-layout.single .post-grid.format-standard .link-wrapper {
     height: 220px;
   }
+}
+/* line 9, assets/style/sass/_pages/_posts.scss */
+.single .post-grid .entry-content {
+  top: 56%;
 }
